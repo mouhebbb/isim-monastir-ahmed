@@ -5,7 +5,7 @@ import NoteForm from "./Note/NoteForm";
 import NoteList from "./Note/NoteList";
 import CreateUserForm from "./CreateUserForm";
 import UserList from "./UserList";
-import Sidebar from "./Sidebar";
+// import Sidebar from "./Sidebar";
 
 const ContentAdmin = ({ selectedItem }) => {
   // Render different content based on the selected item
