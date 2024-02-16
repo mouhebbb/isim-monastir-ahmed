@@ -1,16 +1,17 @@
-import React from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import Home from './components/Home';
-import EnseignantDashboard from './components/EnseignantDashboard';
-import StudentDashboard from './components/StudentDashboard';
-import AdminDashbord from './components/AdminDashbord';
-import Login from './components/Login';
-import AdminMessages from './components/admin/message.jsx/AdminMessages';
-import ForgetPassword from './components/admin/ForgetPassword';
+import React from "react";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import Home from "./components/Home";
+import EnseignantDashboard from "./components/EnseignantDashboard";
+import StudentDashboard from "./components/StudentDashboard";
+import AdminDashbord from "./components/AdminDashbord";
+import Login from "./components/Login";
+import AdminMessages from "./components/admin/message.jsx/AdminMessages";
+import ForgetPassword from "./components/admin/ForgetPassword";
 
 function App() {
-  return ( 
+  return (
     <BrowserRouter>
+      <h1>hello this is mouheb boubaker</h1>
       <div>
         <Switch>
             <Route path='/' exact component={Home}/>
@@ -21,7 +22,8 @@ function App() {
             <Route path='/AdminMessages/:username' component={AdminMessages}/>
             <Route path='/ForgetPassword' component={ForgetPassword}/>
 
-            
+            <h1>danger: Hello this is mouheb ,accept my changes or i will kill you</h1>
+
             
 
         </Switch>
