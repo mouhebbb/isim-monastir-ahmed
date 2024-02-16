@@ -14,16 +14,18 @@ function App() {
       <h1>hello this is mouheb boubaker</h1>
       <div>
         <Switch>
-          <Route path="/" exact component={Home} />
-          <Route path="/EnseignantDashboard" component={EnseignantDashboard} />
-          <Route
-            path="/StudentDashboard/:username"
-            component={StudentDashboard}
-          />
-          <Route path="/AdminDashboard" component={AdminDashbord} />
-          <Route path="/login" component={Login} />
-          <Route path="/AdminMessages/:username" component={AdminMessages} />
-          <Route path="/ForgetPassword" component={ForgetPassword} />
+            <Route path='/' exact component={Home}/>
+            <Route path='/EnseignantDashboard' component={EnseignantDashboard}/>
+            <Route path='/StudentDashboard/:username' component={StudentDashboard}/>
+            <Route path='/AdminDashboard' component={AdminDashbord}/>
+            <Route path='/login' component={Login}/>
+            <Route path='/AdminMessages/:username' component={AdminMessages}/>
+            <Route path='/ForgetPassword' component={ForgetPassword}/>
+
+            <h1>danger: Hello this is mouheb ,accept my changes or i will kill you</h1>
+
+            
+
         </Switch>
       </div>
     </BrowserRouter>
