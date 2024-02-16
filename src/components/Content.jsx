@@ -67,7 +67,7 @@ const Content = ({ selectedItem }) => {
       case "home":
         return <div></div>;
       default:
-        return <div>Select an item from the navbar</div>;
+        return <div>Mouheb rss el7aam</div>;
     }
   };
 
