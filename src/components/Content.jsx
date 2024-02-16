@@ -67,7 +67,8 @@ const Content = ({ selectedItem }) => {
       case "home":
         return <div></div>;
       default:
-        return <div>nothing nothing nothing!!!!</div>;
+        return <div>nothing nothing nothing!!!!nothing </div>;
+        
     }
   };
 
