@@ -67,9 +67,10 @@ const Content = ({ selectedItem }) => {
       case "home":
         return <div></div>;
       default:
-        return <div>Mouheb rss el7aam</div>;
+         return <div>nothing nothing nothing!!!!</div>;
     }
   };
+
 
   return <div>{renderContent()}</div>;
 };
